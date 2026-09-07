@@ -239,6 +239,14 @@ p { max-width: 62ch; }
 }
 
 /* ---------- Placeholder media blocks ---------- */
+.ph img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
 .ph {
   position: relative;
   background: #DEDBD4;
@@ -255,13 +263,6 @@ p { max-width: 62ch; }
   background: rgba(255,255,255,0.85);
   padding: 4px 8px;
 }
-.ph img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .ph-tag {
   position: absolute;
   top: 12px; left: 12px;
@@ -271,6 +272,7 @@ p { max-width: 62ch; }
   font-weight: 700;
   letter-spacing: 0.4px;
   padding: 4px 9px;
+   z-index: 2;
 }
 .ph-custom {
   position: absolute;
@@ -282,6 +284,7 @@ p { max-width: 62ch; }
   letter-spacing: 0.3px;
   padding: 3px 8px;
   background: rgba(255,255,255,0.9);
+   z-index: 2;
 }
 
 /* ---------- Sections ---------- */
