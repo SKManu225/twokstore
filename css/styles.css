@@ -206,14 +206,6 @@ p { max-width: 62ch; }
 .hero-copy .lede { margin-top: 24px; }
 .hero-actions { margin-top: 34px; display: flex; gap: 16px; flex-wrap: wrap; }
 
-.hero-visual img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
 .hero-visual {
   position: relative;
   background: var(--ink);
@@ -221,6 +213,14 @@ p { max-width: 62ch; }
   align-items: flex-end;
   padding: 32px;
   overflow: hidden;
+}
+.hero-visual img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 .hero-visual .ph-label {
   color: var(--paper);
