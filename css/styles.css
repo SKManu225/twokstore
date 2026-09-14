@@ -295,10 +295,6 @@ p { max-width: 62ch; }
   object-fit: cover;
   z-index: 1;
 }
-.gallery-grid img {
-  object-fit: contain;
-  background: #DEDBD4;
-}
 
 /* ---------- Sections ---------- */
 .section { padding: 88px 0; }
